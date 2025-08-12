@@ -111,7 +111,7 @@ graph TB
 
 ### 🌍 **Global Scale**
 - **CloudFront CDN** provides low-latency access worldwide
-- **S3 static hosting** with 99.999999999% durability
+- **S3 static hosting** with high durability
 - **Edge locations** cache content closer to users
 
 ### 🔒 **Enterprise Security**
@@ -120,7 +120,7 @@ graph TB
 - **API Gateway** with built-in DDoS protection and throttling
 
 ### ⚡ **Serverless Performance**
-- **Lambda functions** scale from 0 to 1000+ concurrent executions
+- **Lambda functions** scale for concurrent executions
 - **DynamoDB** provides single-digit millisecond latency
 - **SQS** ensures reliable message delivery with dead letter queues
 
@@ -131,18 +131,6 @@ graph TB
 
 ## API Endpoints
 
-```
-Authentication:
-POST /auth/login          - User login with Cognito
-POST /auth/register       - New user registration
-GET  /auth/user           - Get current user profile
-
-Cart Operations:
-GET    /cart              - Get user's cart items
-POST   /cart/add          - Add item to cart
-PUT    /cart/update/{id}  - Update cart item quantity
-DELETE /cart/remove/{id}  - Remove item from cart
-POST   /cart/clear        - Clear entire cart
 ```
 
 ## Event-Driven Flow
